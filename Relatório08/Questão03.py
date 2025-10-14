@@ -47,22 +47,16 @@ def main():
     arma_ann = ArmaCorpoACorpo("Chicote", 65, "Flexível")
     arma_yusuke = ArmaCorpoACorpo("Espada Japonesa", 80, "Corte")
     arma_makoto = ArmaCorpoACorpo("Soqueira", 75, "Impacto")
-    arma_futaba = ArmaCorpoACorpo("Drone Hacker", 60, "Tecnológica")
-    arma_haru = ArmaCorpoACorpo("Machado", 85, "Corte Pesado")
     
     #Membros
     ryuji = PhantomThieves("Ryuji", arma_ryuji)
     ann = PhantomThieves("Ann", arma_ann)
     yusuke = PhantomThieves("Yusuke", arma_yusuke)
     makoto = PhantomThieves("Makoto", arma_makoto)
-    futaba = PhantomThieves("Futaba", arma_futaba)
-    haru = PhantomThieves("Haru", arma_haru)
     
     equipe = [ryuji, ann, yusuke, makoto]
 
     joker = Joker(equipe)
-    
-    #equipe inicial
     joker.mostrar_equipe()
 
 
