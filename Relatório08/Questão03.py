@@ -58,9 +58,9 @@ def main():
     futaba = PhantomThieves("Futaba", arma_futaba)
     haru = PhantomThieves("Haru", arma_haru)
     
-    equipe_inicial = [ryuji, ann, yusuke, makoto]
+    equipe = [ryuji, ann, yusuke, makoto]
 
-    joker = Joker(equipe_inicial)
+    joker = Joker(equipe)
     
     #equipe inicial
     joker.mostrar_equipe()
